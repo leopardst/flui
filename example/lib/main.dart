@@ -200,15 +200,15 @@ class _HomeTabState extends State<HomeTab> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.apps),
-            title: Text('widgets'),
+            label: 'widgets',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.aspect_ratio),
-            title: Text('dynamic'),
+            label: 'dynamic',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.info_outline),
-            title: Text('about'),
+            label: 'about',
           )
         ],
         currentIndex: _currentIndex,

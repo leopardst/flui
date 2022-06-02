@@ -17,7 +17,7 @@ void main() {
                 shape: FLBadgeShape.circle,
                 text: '2',
               ),
-              title: Text('home')),
+              label: 'home'),
           BottomNavigationBarItem(
               icon: FLBadge(
                 child: Icon(iconData),
@@ -25,7 +25,7 @@ void main() {
                 shape: FLBadgeShape.circle,
                 text: '2',
               ),
-              title: Text('home')),
+              label: 'home'),
         ])));
 
     expect(find.byIcon(iconData), findsNWidgets(2));
